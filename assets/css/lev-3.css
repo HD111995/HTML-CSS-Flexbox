@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+/* Rendering HTML */
+body,main ,section ,header{
+    margin:0;
+    padding:0;
+  
+}
+
+/* ------------------------- */
+/* Header styling Start */
+header{
+    
+    height:76px;
+    display:flex;
+    justify-content:space-around;
+   
+}
+/* ------------------------------ */
+header>h1{
+    color:#666;
+    font-family:'Raleway', sans-serif;
+}
+/* -------------------------------------- */
+header h1:hover{
+    color:#333;
+}
+/* ------------------------------------ */
+ul{
+    width:800px;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+/* ------------------------------------------ */
+header a{
+    text-decoration-line:none;
+    color:#333;
+    font-family:'Raleway', sans-serif;
+    
+}
+/* ----------------------------- */
+header a:hover{
+    color: #337ab7;
+}
+/* Header Styling End */
+/* ----------------------------- */
+/* Section Styling Start */
+section{
+  
+    height:100vh;
+    background:url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg')center/ cover no-repeat;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+/* ----------------------- */
+section>div>h1{
+    margin-top:0;
+    font-size:70px;
+   margin-bottom:10px;
+}
+/* ----------------------------------- */
+/* global Styling Div/h1/p/a */
+div>p ,div>a, div>h1{
+    color:white;
+    font-family:'Raleway', sans-serif;
+    text-decoration-line: none;
+}
+div>a{
+    font-size:22px;
+    padding:10px 17px;;
+}
+/* global End */
+/* ----------------------------------- */
+div a:nth-child(2){
+    
+    border:1px solid white;
+  
+}
+/* ------------------------------------ */
+div a:nth-child(3){
+    display:inline-block;
+    width:200px;
+    background-color:#745cf9;
+    
+}
+/* --------------------------------- */
+div a:nth-child(3):hover{
+    background-color:#5234f9;
+}
+/* ----End the Styling ----*/
