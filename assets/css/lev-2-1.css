@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+section{
+    
+    margin:0;
+    padding:0;
+    padding-top:20px;
+   
+   
+}
+div{
+    
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+img{
+    margin-bottom:20px;
+    width:370px;
+    height:370px;
+}
