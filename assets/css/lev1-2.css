@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+    background: url('https://images.unsplash.com/photo-1510776632413-f3e527a8dc42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')center/ cover no-repeat;
+}
+/* Header Styling */
+header{
+    margin:0;
+    padding:0;
+    height:70px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.493);
+}
+/* ------------------------------- */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:0 2%;
+}
+/* ------------------------------------- */
+ul{
+width:400px;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    
+}
+/* ------------------------------------- */
+
+a{
+    text-decoration-line:none;
+    color:white;
+}
+a:hover{
+    color:black;
+    font-size:22px;
+}
+/* End of the Styling */
